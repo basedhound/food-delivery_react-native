@@ -62,11 +62,17 @@ If you're getting started and need assistance or face any bugs, join our active 
 ### Features of the Mobile Movie AppProject
 
 👉 **Google Authentication**: Secure and seamless user sign-ins using Google.  
+
 👉 **Home Page**: Showcases the latest offers and directs users to filtered search results.  
+
 👉 **Search Page**: Lets users explore all foods with category filters and keyword search.  
+
 👉 **Product Details Page**: Displays food images, key details, and allows adding items to the cart.  
+
 👉 **Cart Page**: Review selected items and see the total price.  
+
 👉 **Profile Page**: Manage user settings and preferences.  
+
 👉 **Appwrite Integration**: Handles backend database and file storage for food items.
 
 and many more, including code architecture and reusability.
