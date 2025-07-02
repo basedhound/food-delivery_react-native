@@ -123,9 +123,7 @@ Replace the placeholder values with your actual TMDB API key, Appwrite project I
 **Running the Project**
 
 ```bash
-
 npx expo start
-
 ```
 
 Open your ExpoGO app on your phone and scan the QR code to view the project.
