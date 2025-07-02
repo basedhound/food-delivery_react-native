@@ -51,11 +51,16 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 - **[Expo](https://expo.dev/)** is an open-source platform for building universal native apps (Android, iOS, web) using JavaScript/TypeScript and React Native. It features file-based routing via Expo Router, fast refresh, native modules for camera/maps/notifications, over-the-air updates (EAS), and streamlined app deployment :contentReference[oaicite:2]{index=2}.
 
+- **[NativeWind](https://www.nativewind.dev/)** brings Tailwind CSS to React Native and Expo, allowing you to style mobile components using utility-first classes for fast, consistent, and responsive UI design.
+
 - **[React Native](https://reactnative.dev/)** is a framework for building mobile UIs with React. It enables component‑based, cross-platform development with declarative UI, deep native API support, and is tightly integrated with Expo for navigation and native capabilities.
 
 - **[Tailwind CSS](https://tailwindcss.com/)** is a utility-first CSS framework enabling rapid UI design via low-level classes. In React Native/Expo, it’s commonly used with NativeWind to apply Tailwind-style utilities to mobile components :contentReference[oaicite:3]{index=3}.
 
 - **[TypeScript](https://www.typescriptlang.org/)** is a statically-typed superset of JavaScript providing type annotations, interfaces, enums, generics, and enhanced tooling. It improves error detection, code quality, and scalability—ideal for robust, maintainable projects.
+
+- **[Zustand](https://github.com/pmndrs/zustand)** is a minimal, hook-based state management library for React and React Native. It lets you manage global state with zero boilerplate, no context providers, and excellent performance through selective state subscriptions.
+
 
 ## <a name="features">🔋 Features</a>
 
@@ -92,8 +97,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone
-cd
+git clone https://github.com/adrianhajdin/food_ordering.git
+cd food_ordering
 ```
 
 **Installation**
@@ -109,8 +114,8 @@ npm install
 Create a new file named `.env` in the root of your project and add the following content:
 
 ```env
-
-
+EXPO_PUBLIC_APPWRITE_PROJECT_ID=
+EXPO_PUBLIC_APPWRITE_ENDPOINT=
 ```
 
 Replace the placeholder values with your actual TMDB API key, Appwrite project ID, Database ID, and Collection ID. You can obtain these credentials by signing up on the **[Appwrite](https://jsm.dev/rn-food-appwrite)** dashboard.
